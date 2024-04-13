@@ -117,5 +117,5 @@ highlight_name: true
 
 Hi! I am **Chuyue Liao (Catherine, 廖楚悦)**. I am a junior undergraduate student majoring in CS at [Nanjing Normal University](https://www.nnu.edu.cn/). Currently, I am advised by [Prof.Yanhui Gu](http://ceai.njnu.edu.cn/user/?ID=komaba461) and actively engaged in research projects centered around **Computer-Aided Drug Design(CADD)** at KOMABA Lab. Additionally, I alse have the previous working experience with [Prof.Xiaojun Qian](http://223.2.10.226/user/?ID=05160) in object detection in computer vision. Recently, I have received AAAI Scholar.
 
-If you are interested in any aspect of me, I would love any form of academic cooperation, please email me at _[cliao.njnu.edu.cn](mailto:cliao@njnu.edu.cn)_.
+If you are interested in any aspect of me, I would love any form of academic cooperation, please email me at _[cliao(at)njnu.edu.cn](mailto:cliao@njnu.edu.cn)_.
 {style="text-align: justify;"}
