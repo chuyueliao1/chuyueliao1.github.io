@@ -1,0 +1,12 @@
+# Font style metadata
+name = "Minimal"
+
+# Optional Google font URL
+google_fonts = "family=Lora:ital,wght@0,400..700;1,400..700"
+
+
+# Font families
+heading_font = "Lora"
+body_font = "Roboto"
+nav_font = "Roboto"
+mono_font = "Roboto Mono"

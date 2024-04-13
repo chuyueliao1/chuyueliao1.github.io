@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Chuyue Liao
 
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# # Name pronunciation (optional)
+# name_pronunciation: Catherine
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Chuyue
+last_name: Liao
 
 # Status emoji
 status:
@@ -17,34 +17,28 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Junior Undergrad of Computer Science and Technology
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Nanjing Normal University
+    url: https://www.nnu.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include Computer Aided Drug Design, AI for Science and Deep Learning.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Computer Aided Drug Design
+  - AI for Science
+  - Deep Learning
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: BSc in Computer Science and Technology
+      institution: School of Computer and Electronic Information /School of Artificial Intelligence
+      year: 2021
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -96,29 +90,32 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/chuyueliao38425
     label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    # display:
+    #   hean: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+    # icoder: true
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.co.uk/citations?user=ChuyueLiao
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/chuyueliao1
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/chuyueliao/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: uploads/CV_ChuyueLiao.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hi! I am **Chuyue Liao (Catherine, 廖楚悦)**. I am a junior undergraduate student majoring in CS at [Nanjing Normal University](https://www.nnu.edu.cn/). Currently, I am advised by [Prof.Yanhui Gu](http://ceai.njnu.edu.cn/user/?ID=komaba461) and actively engaged in research projects centered around **Computer-Aided Drug Design(CADD)** at KOMABA Lab. Additionally, I alse have the previous working experience with [Prof.Xiaojun Qian](http://223.2.10.226/user/?ID=05160) in object detection in computer vision. Recently, I have received AAAI Scholar.
+
+If you are interested in any aspect of me, I would love any form of academic cooperation, please email me at _[cliao.njnu.edu.cn](mailto:cliao@njnu.edu.cn)_.
 {style="text-align: justify;"}
