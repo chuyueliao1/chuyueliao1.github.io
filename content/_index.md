@@ -71,6 +71,8 @@ sections:
           tag: '*'
         - name: Deep Learning
           tag: Deep Learning
+        - name: Computer Vision
+          tag: CV  
         - name: Other
           tag: Demo
     design:
@@ -79,40 +81,34 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  # - block: markdown
-  #   content:
-  #     title: Gallery
-  #     subtitle: ''
-  #     text: |-
-  #       {{< gallery album="demo" >}}
-  #   design:
-  #     columns: '1'
-  # - block: collection
-  #   id: featured
-  #   content:
-  #     title: Publications
-  #     filters:
-  #       folders:
-  #         - publication
-  #       featured_only: true
-  #   design:
-  #     columns: '2'
-  #     view: card
+
   - block: collection
-    id: publication 
+    id: publication
     content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
+      title: Publications
       filters:
         folders:
           - publication
-        exclude_featured: true
+        featured_only: true
     design:
       columns: '2'
-      view: citation
+      view: card
+  # - block: collection
+  #   # id: publication 
+  #   content:
+  #     title: Recent Publications
+  #     # text: |-
+  #     #   {{% callout note %}}
+  #     #   Quickly discover relevant content by [filtering publications](./publication/).
+  #     #   {{% /callout %}}
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: true
+  #   design:
+  #     columns: '2'
+  #     view: citation
+
   # - block: collection
   #   id: talks
   #   content:
@@ -129,48 +125,13 @@ sections:
   #   design:
   #     columns: '2'
 
-  - block: experience
-    id: experience
-    content:
-      title: Experience
-      # Date format for experience
-      #   Refer to https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
-          description: |2-
-              Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
-    design:
-      columns: '2'
 
   - block: accomplishments
-    id: award 
+    id: award
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Awards'
+      title: 'Awards & Honors  (selected)'
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -180,62 +141,198 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
+        - date_end: ''
+          date_start: '2024-02-27'
           description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
+          icon: comap
+          organization: <mark>Outstanding Winner _**(Top 1 in all teams)**_</mark>   
+          title: International Mathematical Contest in Modeling
+          url: '' 
+        - date_end: ''
+          date_start: '2024-02-25'
           description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+          icon: comap
+          organization: _**$1000**_  
+          title: AAAI-24 Student Scholarship
+          url: '' 
+        - date_end: ''
+          date_start: '2023-08-25'
+          description: ''
+          icon: comap
+          organization: National College Student Curricular Academic Science and Technology Works Competition, Jiangsu Division, Second Prize<mark>_**(Leader and Core Participant)**_</mark>
+          title: The Challenge Cup
+          url: '' 
+        - date_end: ''
+          date_start: '2023-08-23'
+          description: ''
+          icon: comap
+          organization: East China Division, Second Prize   
+          title: C4-Network Technology Challenge
+          url: '' 
+        - date_end: ''
+          date_start: '2023-10-25'
+          description: ''
+          icon: comap
+          organization: rank _**Top 1**_ in all candidates 
+          title: Advanced individual in scientific research and innovation of Nanjing Normal University
+          url: '' 
+        - date_end: ''
+          date_start: '2022-11-25'
+          description: ''
+          icon: comap
+          organization: <mark>_**First Prize Scholarship**_</mark>   
+          title: Nanjing Normal University Scholarship for Outstanding Students
+          url: '' 
+         
+          
     design:
       columns: '2'
-  - block: collection
-    id: posts
+
+  - block: experience
+    id: experience
     content:
-      title: Recent Posts
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+      title: Experience
+      # Date format for experience
+      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      # date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      
+      items:
+        - title: Remote Internship
+          company: Carnegie Mellon University
+          company_url: ''
+          company_logo: cmu
+          date_end: ''
+          date_start: '2024-03-01'
+          # description: |2-          
+          #     Responsibilities include:
+
+          #     * answered questions raised by students 
+          #     * serve as a bridge between students and instructors      
+        - title: AAAI Student Membership
+          company: The Association for the Advancement of Artificial Intelligence
+          company_url: ''
+          company_logo: AAAI
+          date_start: '2023-12-01'
+          # description: |2-          
+          #     Responsibilities include:
+
+          #     * answered questions raised by students 
+          #     * serve as a bridge between students and instructors
+
+
+            
+        - title: _Ming Li_ Teaching Assistant of C Programming Language Course
+          company: Nanjing Normal University
+          company_url: ''
+          company_logo: c-1
+          date_end: '2023-02-01'
+          date_start: '2022-09-01'
+          description: |2-          
+              Responsibilities include:
+
+              * answered questions raised by students 
+              * serve as a bridge between students and instructors
+   
+        - title: _Ming Li_ Teaching Assistant of C++ Programming Language Course
+          company: Nanjing Normal University
+          company_url: ''
+          company_logo: c
+          date_end: '2023-07-01'
+          date_start: '2023-03-01'
+          description: |2-
+              Responsibilities include:
+
+              * answered questions raised by students 
+              * serve as a bridge between students and instructors
+
+        
     design:
-      # Choose a layout view
-      view: compact
       columns: '2'
+
+  # - block: accomplishments
+  #   id: experience 
+  #   content:
+  #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+  #     title: 'Experience'
+  #     subtitle:
+  #     # Date format: https://docs.hugoblox.com/customization/#date-format
+  #     date_format: Jan 2006
+  #     # Accomplishments.
+  #     #   Add/remove as many `item` blocks below as you like.
+  #     #   `title`, `organization`, and `date_start` are the required parameters.
+  #     #   Leave other parameters empty if not required.
+  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+  #     items:
+  #       - certificate_url: https://www.coursera.org
+  #         date_end: ''
+  #         date_start: '2021-01-25'
+  #         description: ''
+  #         icon: coursera
+  #         organization: Coursera
+  #         organization_url: https://www.coursera.org
+  #         title: Neural Networks and Deep Learning
+  #         url: ''
+  #       - certificate_url: https://www.edx.org
+  #         date_end: ''
+  #         date_start: '2021-01-01'
+  #         description: Formulated informed blockchain models, hypotheses, and use cases.
+  #         icon: edx
+  #         organization: edX
+  #         organization_url: https://www.edx.org
+  #         title: Blockchain Fundamentals
+  #         url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+  #       - certificate_url: https://www.datacamp.com
+  #         date_end: '2020-12-21'
+  #         date_start: '2020-07-01'
+  #         description: ''
+  #         icon: datacamp
+  #         organization: DataCamp
+  #         organization_url: https://www.datacamp.com
+  #         title: 'Object-Oriented Programming in R'
+  #         url: ''
+  #   design:
+  #     columns: '2'
+  - block: markdown
+    id: event
+    content:
+      title: Events&Team
+      subtitle: ''
+      text: |-
+        {{< gallery album="demo" >}}
+    design:
+      columns: '1'      
+  # - block: collection
+  #   id: posts
+  #   content:
+  #     title: Recent Posts
+  #     subtitle: ''
+  #     text: ''
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 5
+  #     # Filter on criteria
+  #     filters:
+  #       folders:
+  #         - post
+  #       author: ""
+  #       category: ""
+  #       tag: ""
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #       publication_type: ""
+  #     # Choose how many pages you would like to offset by
+  #     offset: 0
+  #     # Page order: descending (desc) or ascending (asc) date.
+  #     order: desc
+  #   design:
+  #     # Choose a layout view
+  #     view: compact
+  #     columns: '2'
   # - block: contact
   #   id: contact
   #   content:

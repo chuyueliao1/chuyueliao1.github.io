@@ -45,40 +45,52 @@ education:
 skills:
   - name: Technical
     items:
-      - name: Python
+      - name: pytorch
         description: ''
-        percent: 80
-        icon: python
-        icon_pack: fab
-      - name: Data Science
+        percent: 85
+        icon: pytorch1
+        icon_pack: custom    
+      - name: vim
         description: ''
-        percent: 100
-        icon: chart-line
-        icon_pack: fas
-      - name: SQL
+        percent: 90
+        icon: vim1
+        icon_pack: custom
+      - name: git
         description: ''
-        percent: 40
-        icon: database
-        icon_pack: fas
+        percent: 90
+        icon: git
+        icon_pack: custom
+      - name: latex
+        description: ''
+        percent: 90
+        icon: latex1
+        icon_pack: custom      
+
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
+
       - name: Hiking
         description: ''
-        percent: 60
+        percent: 85
         icon: person-hiking
         icon_pack: fas
-      - name: Cats
+      - name: writing
         description: ''
-        percent: 100
-        icon: cat
-        icon_pack: fas
-      - name: Photography
+        percent: 90
+        icon: book1
+        icon_pack: custom
+      - name: Badminton
         description: ''
-        percent: 80
-        icon: camera-retro
-        icon_pack: fas
+        percent: 85
+        icon: badminton
+        icon_pack: custom
+      - name: Animation
+        description: ''
+        percent: 90
+        icon: animation
+        icon_pack: custom
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -115,7 +127,7 @@ social:
 highlight_name: true
 ---
 
-Hi! I am **Chuyue Liao (Catherine, 廖楚悦)**. I am a junior undergraduate student majoring in CS at [Nanjing Normal University](https://www.nnu.edu.cn/). Currently, I am advised by [Prof.Yanhui Gu](http://ceai.njnu.edu.cn/user/?ID=komaba461) and actively engaged in research projects centered around **Computer-Aided Drug Design(CADD)** at KOMABA Lab. Additionally, I alse have the previous working experience with [Prof.Xiaojun Qian](http://223.2.10.226/user/?ID=05160) in object detection in computer vision. Recently, I have received AAAI Scholar.
+Hi! I am **Chuyue Liao (Catherine, 廖楚悦)**, a junior undergraduate student majoring in CS at [Nanjing Normal University](https://www.nnu.edu.cn/). Currently, I am advised by [Prof.Yanhui Gu](http://ceai.njnu.edu.cn/user/?ID=komaba461) and actively engaged in research projects centered around **Computer-Aided Drug Design(CADD)** at KOMABA Lab. Additionally, I have prior experience collaborating with [Prof.Xiaojun Qian](http://223.2.10.226/user/?ID=05160) on projects involving object detection within the field of computer vision. Recently, I have received AAAI Scholar.
 
-If you are interested in any aspect of me, I would love any form of academic cooperation, please email me at _[cliao(at)njnu.edu.cn](mailto:cliao@njnu.edu.cn)_.
+If you are interested in any aspect of me, I would love any form of academic cooperation, please email me at _[cliao(at)njnu(dot)edu(dot)cn](mailto:cliao@njnu.edu.cn)_.
 {style="text-align: justify;"}
