@@ -58,7 +58,7 @@ skills:
       - name: Large Model
         description: 'Transformer, Bert, ChatGPT'
         # percent: 90
-        icon: LLM
+        icon: LLM2
         icon_pack: custom     
 
   - name: Hobbies
