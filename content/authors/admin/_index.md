@@ -46,7 +46,7 @@ skills:
   - name: Technical
     items:
       - name: pytorch
-        description: ''
+        description: 'hhh'
         percent: 85
         icon: pytorch1
         icon_pack: custom    
