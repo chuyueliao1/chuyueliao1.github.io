@@ -45,26 +45,21 @@ education:
 skills:
   - name: Technical
     items:
-      - name: pytorch
-        description: 'hhh'
-        percent: 85
-        icon: pytorch1
+      - name: Programming
+        description: 'Python, MATLAB, Java, C++, Bash, Markdown, LaTeX, HTML'
+        # percent: 85
+        icon: code
         icon_pack: custom    
-      - name: vim
-        description: ''
-        percent: 90
-        icon: vim1
+      - name: Deep Learning Framework
+        description: 'PyTorch, PaddlePaddle'
+        # percent: 90
+        icon: AI
         icon_pack: custom
-      - name: git
-        description: ''
-        percent: 90
-        icon: git
-        icon_pack: custom
-      - name: latex
-        description: ''
-        percent: 90
-        icon: latex1
-        icon_pack: custom      
+      - name: Large Model
+        description: 'Transformer, Bert, ChatGPT'
+        # percent: 90
+        icon: LLM
+        icon_pack: custom     
 
   - name: Hobbies
     color: '#eeac02'
@@ -73,22 +68,22 @@ skills:
 
       - name: Hiking
         description: ''
-        percent: 85
+        # percent: 85
         icon: person-hiking
         icon_pack: fas
       - name: writing
         description: ''
-        percent: 90
+        # percent: 90
         icon: book1
         icon_pack: custom
       - name: Badminton
         description: ''
-        percent: 85
+        # percent: 85
         icon: badminton
         icon_pack: custom
       - name: Animation
         description: ''
-        percent: 90
+        # percent: 90
         icon: animation
         icon_pack: custom
 
