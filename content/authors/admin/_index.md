@@ -36,7 +36,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: BSc in Computer Science and Technology
+    - course: B.Eng. in Computer Science and Technology
       institution: School of Computer and Electronic Information /School of Artificial Intelligence
       year: 2021
 
