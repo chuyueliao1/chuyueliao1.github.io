@@ -305,7 +305,11 @@ sections:
       text: |-
         {{< gallery album="demo" >}}
     design:
-      columns: '1'      
+      columns: '1'   
+
+      # text: updated 2024.04.16
+      
+      
   # - block: collection
   #   id: posts
   #   content:
@@ -384,4 +388,6 @@ sections:
   #         captcha: false
   #   design:
   #     columns: '2'
+  
 ---
+

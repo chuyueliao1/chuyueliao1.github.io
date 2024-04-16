@@ -74,7 +74,7 @@ skills:
       - name: writing
         description: ''
         # percent: 90
-        icon: book1
+        icon: pen
         icon_pack: custom
       - name: Badminton
         description: ''
@@ -122,7 +122,7 @@ social:
 highlight_name: true
 ---
 
-Hi! I am **Chuyue Liao (Catherine, 廖楚悦)**, a junior undergraduate student majoring in CS at [Nanjing Normal University](https://www.nnu.edu.cn/). Currently, I am advised by [Prof.Yanhui Gu](http://ceai.njnu.edu.cn/user/?ID=komaba461) and actively engaged in research projects centered around **Computer-Aided Drug Design(CADD)** at KOMABA Lab. Additionally, I have prior experience collaborating with [Prof.Xiaojun Qian](http://223.2.10.226/user/?ID=05160) on projects involving object detection within the field of computer vision. Recently, I have received AAAI Scholar.
+Hi! I am **Chuyue Liao (Catherine, 廖楚悦)**, a junior undergraduate student majoring in CS at :school:[Nanjing Normal University](https://www.nnu.edu.cn/). Currently, I am advised by [Prof.Yanhui Gu](http://ceai.njnu.edu.cn/user/?ID=komaba461) and actively engaged in research projects centered around **Computer-Aided Drug Design(CADD)** at KOMABA Lab. Additionally, I have prior experience collaborating with [Prof.Xiaojun Qian](http://223.2.10.226/user/?ID=05160) on projects involving object detection within the field of computer vision. Recently, I have received AAAI Scholar. View my :bookmark_tabs:[CV](uploads/CV_ChuyueLiao.pdf) here.
 
-If you are interested in any aspect of me, I would love any form of academic cooperation, please email me at _[cliao(at)njnu(dot)edu(dot)cn](mailto:cliao@njnu.edu.cn)_.
+If you are interested in any aspect of me, I would love any form of academic cooperation, please email me at:envelope:_[cliao(at)njnu(dot)edu(dot)cn](mailto:cliao@njnu.edu.cn)_ .
 {style="text-align: justify;"}
