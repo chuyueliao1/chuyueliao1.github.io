@@ -94,7 +94,7 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: mailto:cliao@njnu.edu.cn
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/chuyueliao38425
