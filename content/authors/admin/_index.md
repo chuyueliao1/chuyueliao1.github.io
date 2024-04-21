@@ -53,7 +53,7 @@ skills:
       - name: Deep Learning Framework
         description: 'PyTorch, PaddlePaddle'
         # percent: 90
-        icon: dl
+        icon: AI
         icon_pack: custom
       - name: Large Model
         description: 'Transformer, Bert, ChatGPT'
