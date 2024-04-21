@@ -9,22 +9,26 @@ main:
     weight: 10
   - name: Skills
     url: '#skills'
-    weight: 20
+    weight: 40
   - name: Projects
     url: '#projects'
     weight: 30 
   - name: Publications
     url: '#publication'
-    weight: 40 
-  - name: Award
+    weight: 20 
+  - name: Awards
     url: '#award'  
     weight: 50  
-  - name: Experience 
+  - name: Experiences 
     url: '#experience' 
     weight: 60
-  - name: Event
+  - name: Events
     url: '#event'
     weight: 70
+  # - name: Blogs
+  #   url: '#blog'
+  #   weight: 80
+
   # - name: Posts
   #   url: '#posts'
   #   weight: 80

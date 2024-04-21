@@ -42,15 +42,21 @@ sections:
       title: About Me
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: skills
-    id: skills
+
+  - block: collection
+    id: publication
     content:
-      title: Skills
-      text: ''
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
+      title: Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
     design:
-      columns: '1'
+      columns: '2'
+      view: card
+      
+      
+
 
   - block: portfolio
     id: projects
@@ -82,17 +88,17 @@ sections:
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
 
-  - block: collection
-    id: publication
+
+  - block: skills
+    id: skills
     content:
-      title: Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
+      title: Skills
+      text: ''
+      # Choose a user to display skills from (a folder name within `content/authors/`)
+      username: admin
     design:
-      columns: '2'
-      view: card
+      columns: '1'
+
   # - block: collection
   #   # id: publication 
   #   content:
@@ -191,7 +197,7 @@ sections:
   - block: experience
     id: experience
     content:
-      title: Experience
+      title: Experiences
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
       # date_format: Jan 2006
@@ -208,23 +214,12 @@ sections:
           company_logo: cmu
           date_end: ''
           date_start: '2024-03-01'
-          # description: |2-          
-          #     Responsibilities include:
-
-          #     * answered questions raised by students 
-          #     * serve as a bridge between students and instructors      
+    
         - title: AAAI Student Membership
           company: The Association for the Advancement of Artificial Intelligence
           company_url: ''
           company_logo: AAAI
           date_start: '2023-12-01'
-          # description: |2-          
-          #     Responsibilities include:
-
-          #     * answered questions raised by students 
-          #     * serve as a bridge between students and instructors
-
-
             
         - title: _Ming Li_ Teaching Assistant of C Programming Language Course
           company: Nanjing Normal University
@@ -300,7 +295,7 @@ sections:
   - block: markdown
     id: event
     content:
-      title: Events&Team
+      title: Events & Team
       subtitle: ''
       text: |-
         {{< gallery album="demo" >}}
@@ -311,9 +306,9 @@ sections:
       
       
   # - block: collection
-  #   id: posts
+  #   id: blog
   #   content:
-  #     title: Recent Posts
+  #     title: Blogs
   #     subtitle: ''
   #     text: ''
   #     # Choose how many pages you would like to display (0 = all pages)
@@ -321,7 +316,7 @@ sections:
   #     # Filter on criteria
   #     filters:
   #       folders:
-  #         - post
+  #         - blog
   #       author: ""
   #       category: ""
   #       tag: ""
@@ -329,6 +324,8 @@ sections:
   #       exclude_future: false
   #       exclude_past: false
   #       publication_type: ""
+
+
   #     # Choose how many pages you would like to offset by
   #     offset: 0
   #     # Page order: descending (desc) or ascending (asc) date.
@@ -337,6 +334,7 @@ sections:
   #     # Choose a layout view
   #     view: compact
   #     columns: '2'
+
   # - block: contact
   #   id: contact
   #   content:
