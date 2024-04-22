@@ -25,13 +25,14 @@ organizations:
     url: https://www.nnu.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Computer Aided Drug Design, AI for Science and Deep Learning.
+bio: My research interests include AI for Science, Deep Learning and Computer Vision.
 
 # Interests to show in About widget
 interests:
-  - Computer Aided Drug Design
   - AI for Science
   - Deep Learning
+  - Computer Vision
+
 
 # Education to show in About widget
 education:
@@ -116,13 +117,13 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/CV_ChuyueLiao.pdf
+    link: uploads/ChuyueLiao_CV.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Hi! I am **Chuyue Liao (Catherine, 廖楚悦)**, a junior undergraduate student majoring in CS at :school:[Nanjing Normal University](https://www.nnu.edu.cn/). Currently, I am advised by [Prof.Yanhui Gu](http://ceai.njnu.edu.cn/user/?ID=komaba461) and actively engaged in research projects centered around **Computer-Aided Drug Design(CADD)** at KOMABA Lab. Additionally, I have prior experience collaborating with [Prof.Xiaojun Qian](http://223.2.10.226/user/?ID=05160) on projects involving object detection within the field of computer vision. Recently, I have received AAAI Scholar. Click here to view my :bookmark_tabs:[CV](uploads/CV_ChuyueLiao.pdf) .
+Hi! I am **Chuyue Liao (Catherine, 廖楚悦)**, a junior undergraduate student majoring in CS at :school:[Nanjing Normal University](https://www.nnu.edu.cn/). Currently, I am supervised by [Prof.Yanhui Gu](http://ceai.njnu.edu.cn/user/?ID=komaba461) and actively engaged in research projects centered around **Computer-Aided Drug Design(CADD)** at KOMABA Lab. Additionally, I have prior experience collaborating with [Prof.Xiaojun Qian](http://223.2.10.226/user/?ID=05160) on projects involving object detection within the field of computer vision. Recently, I have received AAAI Scholar. Click here to view my :bookmark_tabs:[CV](uploads/ChuyueLiao_CV.pdf) .
 
 If you are interested in any aspect of me, I would love any form of academic cooperation, please email me at:envelope:_[cliao(at)njnu(dot)edu(dot)cn](mailto:cliao@njnu.edu.cn)_ .
 {style="text-align: justify;"}
