@@ -148,6 +148,13 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - date_end: ''
+          date_start: '2024-05-16'
+          description: ''
+          icon: comap
+          organization: _**￥10000**_    
+          title: Provincial Government Scholarship of Overseas Studies for Undergraduates
+          url: ''
+        - date_end: ''
           date_start: '2024-02-27'
           description: ''
           icon: comap
@@ -208,20 +215,20 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       
       items:
-        - title: Remote Internship
-          company: Carnegie Mellon University
+        - title: University of Tokyo Summer Program
+          company: Jiangsu Education Services for International Exchange(JESIE)
           company_url: ''
-          company_logo: cmu
-          date_end: ''
-          date_start: '2024-03-01'
-    
+          company_logo: UTokyo
+          date_end: '2024-08-05'
+          date_start: '2024-07-15'  
+
         - title: AAAI Student Membership
           company: The Association for the Advancement of Artificial Intelligence
           company_url: ''
           company_logo: AAAI
           date_start: '2023-12-01'
             
-        - title: _Ming Li_ Teaching Assistant of C Programming Language Course
+        - title: Teaching Assistant of C Programming Language Course
           company: Nanjing Normal University
           company_url: ''
           company_logo: c-1
@@ -233,7 +240,7 @@ sections:
               * answered questions raised by students 
               * serve as a bridge between students and instructors
    
-        - title: _Ming Li_ Teaching Assistant of C++ Programming Language Course
+        - title: Teaching Assistant of C++ Programming Language Course
           company: Nanjing Normal University
           company_url: ''
           company_logo: c
